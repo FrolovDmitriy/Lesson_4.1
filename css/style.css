@@ -1,0 +1,134 @@
+/* &display=swap */
+
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700,900,400italic,700italic,900italic&display=swap");
+
+@font-face {
+	font-family: "SFProDisplay";
+	src: url("../fonts/SFProDisplay-Regular.woff2") format("woff2"), url("../fonts/SFProDisplay-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SFProDisplay";
+	src: url("../fonts/SFProDisplay-RegularItalic.woff2") format("woff2"), url("../fonts/SFProDisplay-RegularItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SFProDisplay";
+	src: url("../fonts/SFProDisplay-Black.woff2") format("woff2"), url("../fonts/SFProDisplay-Black.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SFProDisplay";
+	src: url("../fonts/SFProDisplay-BlackItalic.woff2") format("woff2"), url("../fonts/SFProDisplay-BlackItalic.woff") format("woff");
+	font-weight: 700;
+	font-style: italic;
+	font-display: swap;
+}
+
+/* ========================================================================================== */
+
+h1{
+font-family: "SFProDisplay", sans-serif;
+font-weight: 700;
+font-size: 60px;
+line-height: 1.5;
+text-align: center;
+letter-spacing: 5px;
+}
+
+p{
+	font-family: "Montserrat";
+	font-size: 24px;
+	line-height: 1.25;
+	text-align: justify;
+}
+
+img{
+	height: 400px;
+}
+
+h2{
+	text-align: center;
+	font-family: "Jura", sans-serif;
+	font-weight: 700;
+	font-size: 42px;
+}
+
+a{
+	color: yellowgreen;
+	text-decoration: underline;
+	font-style: italic;
+	text-shadow: 8px 4px 20px #FC2742;
+}
+
+ul{
+	font-family: "SFProDisplay", sans-serif;
+	font-style: italic;
+	font-size: 24px;
+	line-height: 1.3;
+}
+
+
+
+
+.h2-cmpn{
+	color: #FCE300;
+} 
+
+.criteria-subtitle {
+	font-family: "SFProDisplay", sans-serif;
+	font-size: 35px;
+	color: coral;
+}
+
+.criteria-list-1 {
+	text-decoration: line-through;
+}
+
+
+
+
+.installation-title {
+	color: darkturquoise;
+} 
+
+.installation-list-1 {
+	text-decoration: line-through;
+	color: darkslateblue;
+}
+
+
+
+
+
+.total-title {
+font-size: 100px;
+color: red;
+}
+
+
+
+.total-p1 {
+color: darkgray;
+} 
+
+.total-p2 {
+	color: darkcyan;
+}
+
+.total-p3 {
+	color: darkorange;
+	text-transform: uppercase;
+	text-align: right;
+}
